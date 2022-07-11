@@ -1,0 +1,124 @@
+.hm11ctn {
+	display: flex;
+	flex-direction: column;
+	width: 30rem;
+	margin: auto;
+	/* background-color: rgb(242, 242, 242); */
+	border: 1px solid rgba(227, 227, 227, 0.209);
+	backdrop-filter: blur(5px);
+	border-radius: 5px;
+	align-items: center;
+	padding: 2rem;
+	row-gap: 3rem;
+}
+
+.hm11sc {
+	display: flex;
+	width: 25rem;
+}
+
+.hm11hd {
+	font-size: 2.2rem;
+	color: rgb(244, 244, 244);
+	letter-spacing: 0.1px;
+	text-transform: capitalize;
+	margin-bottom: 2rem;
+}
+
+.hm11ip {
+	font-size: 1.1rem;
+	width: 25rem;
+	outline: none;
+	background: transparent;
+	color: white;
+	border: none;
+	border-bottom: 1px solid rgba(225, 225, 225, 0.815);
+	transition: 0.2s;
+	font-family: "open sans";
+}
+
+.hm11ta {
+	font-size: 1.1rem;
+	width: 25rem;
+	outline: none;
+	background: transparent;
+	color: white;
+	border: none;
+	border-bottom: 1px solid rgba(225, 225, 225, 0.815);
+	transition: 0.2s;
+	font-family: "open sans";
+}
+
+.hm11ip::placeholder,
+.hm11ta::placeholder {
+	color: rgba(236, 236, 236, 0.727);
+	font-family: "open sans";
+}
+.hm11ip:focus {
+	border-bottom: 1px solid rgba(241, 241, 241, 0.94);
+}
+.hm11pr {
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: rgba(245, 245, 245, 0.835);
+	letter-spacing: 0.4px;
+	margin: 0;
+}
+.hm11op {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hm11rd {
+	width: auto;
+	appearance: none;
+	background-color: transparent;
+	margin: 0;
+	font: inherit;
+	width: 0.88rem;
+	height: 0.88rem;
+	border: 0.15em solid rgba(255, 255, 255, 0.804);
+	border-radius: 50%;
+}
+
+.hm11rc {
+	display: flex;
+	flex: 1;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.hm11lb {
+	color: rgba(240, 240, 240, 0.782);
+	font-size: 1rem;
+	margin-left: 6px;
+}
+
+.hm11rd:checked {
+	background-color: rgb(44, 109, 238);
+}
+
+.hm11btn {
+	background: transparent;
+	border: 1px solid rgba(226, 225, 225, 0.85);
+	padding: 1rem 2rem;
+	color: rgba(241, 241, 241, 0.894);
+	font-size: 1rem;
+	border-radius: 2em;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.hm11btn:hover {
+	border: 1px solid rgba(226, 225, 225, 0.975);
+	color: rgba(241, 241, 241, 0.991);
+	background-color: #205acead;
+}
+
+.error {
+	border-color: #de4949d0 !important;
+}

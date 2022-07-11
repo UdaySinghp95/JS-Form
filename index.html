@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form App</title>
+		<link rel="stylesheet" href="./components/home.css" />
+		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<script src="./js/home.js"></script>
+	<body>
+		<div class="hm11ctn">
+			<h1 class="hm11hd">Create Account</h1>
+			<input class="hm11ip" type="text" placeholder="First Name" autofocus />
+			<input class="hm11ip" type="text" placeholder="Last Name" />
+			<div class="hm11sc">
+				<p class="hm11pr">Married Status</p>
+				<div class="hm11rc">
+					<div class="hm11op">
+						<input
+							class="hm11rd"
+							type="radio"
+							name="marriedStatus"
+							id="married"
+							value="married"
+						/>
+						<label class="hm11lb" for="married">Married</label>
+					</div>
+					<div class="hm11op">
+						<input
+							class="hm11rd"
+							type="radio"
+							name="marriedStatus"
+							id="unmarried"
+							value="Unmarried"
+						/>
+						<label class="hm11lb" for="unmaried">UnMarried</label>
+					</div>
+				</div>
+			</div>
+			<div class="hm11sc">
+				<p class="hm11pr">Gender</p>
+				<div class="hm11rc">
+					<div class="hm11op">
+						<input
+							class="hm11rd"
+							type="radio"
+							name="gender"
+							id="male"
+							value="male"
+						/>
+						<label class="hm11lb" for="male">Male</label>
+					</div>
+					<div class="hm11op">
+						<input
+							class="hm11rd"
+							type="radio"
+							name="gender"
+							id="female"
+							value="female"
+						/>
+						<label class="hm11lb" for="female">Female</label>
+					</div>
+				</div>
+			</div>
+			<input class="hm11ip" type="text" placeholder="Name of spouse" />
+			<textarea class="hm11ta" placeholder="Other Text"></textarea>
+
+			<div class="hm11rc">
+				<button class="hm11btn" onclick="handleReset()">Reset</button>
+				<button class="hm11btn" onclick="handleSubmit()">Submit</button>
+			</div>
+		</div>
+	</body>
+</html>
